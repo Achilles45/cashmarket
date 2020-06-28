@@ -3,7 +3,7 @@
       <div class="container">
         <div class="row">
             <div class="col-md-3">
-                 <i class="fa fa-phone"></i>&nbsp;&nbsp; 09051985562&nbsp;  (Mon - Fri, 9am to 4pm)
+                 <i class="fa fa-phone"></i>&nbsp;&nbsp; 09051985562&nbsp;  (Mon - Sun, &nbsp; 24/7)
             </div>
             <div class="col-md-3">
                  <i class="fa fa-envelope"></i>&nbsp;&nbsp; cashmarketinvestment@gmail.com

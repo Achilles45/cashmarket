@@ -10,7 +10,7 @@
           <div class="row text-center">
               <div class="col-md-3">
                   <i class="fa fa-users icons"></i>
-                  <h3>Over 200+ Investors Currently</h3>
+                  <h3>Over 20,0000+ Investors Currently</h3>
               </div>
               <div class="col-md-3">
                   <i class="fas fa-funnel-dollar icons"></i>
