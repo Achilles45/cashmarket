@@ -18,7 +18,7 @@
                         <div class="icon__wrapper">
                                 <p><i class="fa fa-envelope"></i></p>
                         </div>
-                        <p class="pl-3"> cashmarketinvestment@gmail.com</p>
+                        <p class="pl-3"> annexationbizconcept@gmail.com</p>
                     </div>
                   </div><br>
                    <div class="col-md-4">
@@ -27,6 +27,7 @@
                             <p><i class="fa fa-phone"></i></p>
                         </div>
                         <p class="pl-3">09051985562</p>
+                        <p class="pl-3">07026200007</p>
                     </div>
                   </div><br>
                    <div class="col-md-4">
@@ -34,7 +35,7 @@
                      <div class="icon__wrapper">
                             <p><i class="fa fa-home"></i></p>
                      </div>
-                        <p class="pl-3">No.34 Jos Road, Lafia Nassarawa, , Nasarawa State.</p>
+                        <p class="pl-3">No.34 Jos Road, Lafia Nassarawa, Nasarawa State.</p>
                     </div>
                   </div>
                   <br>

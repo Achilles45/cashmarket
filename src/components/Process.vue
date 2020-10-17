@@ -24,7 +24,7 @@
                           <hr>
                           <p>The company deals with various high growth and secured investment opportunities. Some of the products and services we deal on includes</p>
                           <p><i class="fa fa-check-circle"></i>&nbsp;&nbsp; Import & Export of Agro Allied Products</p>
-                          <p><i class="fa fa-check-circle"></i>&nbsp;&nbsp; Foodstuffs exportation</p>
+                          <p><i class="fa fa-check-circle"></i>&nbsp;&nbsp; Synthetic Indices</p>
                           <p><i class="fa fa-check-circle"></i>&nbsp;&nbsp; Forex Trading</p>
                           <p><i class="fa fa-check-circle"></i>&nbsp;&nbsp;  General Online Investments/CryptoTradings</p>
                           <p><i class="fa fa-check-circle"></i>&nbsp;&nbsp; Online/Offline seminars and Expositions</p>
@@ -45,7 +45,7 @@
           </div>
           <div class="row">
               <div class="col-12">
-                    <p>These are some of the product we deal on that helps the company generate quick returns to pay investors in five days for initial investment and in 24 hours for the promo package. Want to grow your money, give us a try today!</p>
+                    <p>These are some of the product we deal on that helps the company generate quick returns to pay investors in five days for initial investment, in 24 hours for the promo package and in 48 hours for our jackpot packages. Want to grow your money, give us a try today!</p>
               </div>
           </div>
       </div>

@@ -4,14 +4,14 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="carousel-overlay"></div>
-          <img class="carousel-img" src="../assets/images/banner2.jpg" alt="First slide" />
+          <img class="carousel-img" src="../assets/images/new1.jpg" alt="First slide" />
           <div class="carousel-caption">
             <h1 class="animate__animated animate__bounceIn">EARN 50% of YOUR <span class="orange">INITIAL INVESTMENT IN 5 DAYS</span></h1>
-            <p>You can grow your initial investment to as much as 50% in 5 day or in 24 hours when you select our promo plans. This applies to only new members. No stories, no stress.</p>
+            <p>You can grow your initial investment to as much as 50% in 5 day, 300% for promo plans in 24 hours for promo plans or 400% in 48 hours when you select out jackpot plan. This applies to only new members. No stories, no stress.</p>
             <router-link to="/signup" class="carousel-btn animated zoomIn animate3d">Get Started <i class="fas fa-long-arrow-alt-right"></i> </router-link>
           </div>
         </div>
-        <div class="carousel-item">
+        <!-- <div class="carousel-item">
           <div class="carousel-overlay"></div>
           <img class="carousel-img" src="../assets/images/hero5.jpg" alt="Second slide" />
            <div class="carousel-caption">
@@ -21,20 +21,20 @@
             >We leverage bank grade security to encrypt all our investors data to make sure their investments is 100% safe and secured</p>
              <router-link to="/signup" class="carousel-btn animated zoomIn animate3d">Get Started <i class="fas fa-long-arrow-alt-right"></i> </router-link>
           </div>
-        </div>
-        <div class="carousel-item">
+        </div> -->
+        <!-- <div class="carousel-item">
           <div class="carousel-overlay"></div>
           <img class="carousel-img" src="../assets/images/banner1.jpg" alt="Third slide" />
           <div class="carousel-caption">
             <h1 class="animated slideInDown animate3d">Helping you make <span class="orange">smart investments</span></h1>
             <p
               class="animated slideInRight animate3d"
-            >Our investment plans provides equall investment opportunities for everyone. You can begin with as little as &#8358;10,000.00. Why not join the winning train!</p>
+            >Our investment plans provides equall investment opportunities for everyone. You can begin with as little as &#8358;20,000.00. Why not join the winning train!</p>
              <router-link to="/signup" class="carousel-btn animated zoomIn animate3d">Get Started <i class="fas fa-long-arrow-alt-right"></i> </router-link>
           </div>
-        </div>
+        </div> -->
       </div>
-      <a
+      <!-- <a
         class="carousel-control-prev"
         href="#carouselExampleControls"
         role="button"
@@ -51,7 +51,7 @@
       >
         <span class="carousel-control-next-icon d-none d-md-block" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
-      </a>
+      </a> -->
     </div>
   </div>
 </template>

@@ -22,8 +22,8 @@
            <div class="dashboard__right ">
               <div class="heading d-flex justify-content-between">
                   <div class="content">
-                      <h4>You are logged as </h4>
-                      <h2>{{name}}</h2>
+                      <h5 style="color: white">You are logged as </h5>
+                      <h3 style="color: white">{{name}}</h3>
                       <!-- <small>{{ firstCode }}</small> -->
                   <!-- <small>{{ accountNumber }}</small> -->
                   </div>
@@ -162,7 +162,7 @@ export default {
     grid-template-columns:  260px 1fr;
     // grid-gap: 30px;
   .dashboard__left{
-        background: #252525;
+        background: #0c0f1b;
         padding: 1rem 2rem;
         color:#fff;
         height: 100% !important;
@@ -196,7 +196,7 @@ export default {
         }
     }
     .dashboard__right{
-        background: #fafafa;
+        background: #0c0f1b;
         padding: 3rem 2.5rem;
         .heading{
                   display: flex;
@@ -288,9 +288,9 @@ export default {
                  }
                  label{
                      font-size: .8rem;
-                     font-weight: bold;
-                     color:#545454;
-                     opacity: .7;
+                     font-weight: normal;
+                     color:#fff;
+                     opacity: .8;
                  }
                  input, select{
                      height: 2.8rem;

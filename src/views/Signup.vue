@@ -17,7 +17,6 @@
                <div class="form-group">
                       <small id="passwordHelpBlock" class="form-text text-muted">Select Amount</small>
                   <select class="form-control" id="inlineFormCustomSelect" v-model="account_type">
-                      <option value="10,000">&#8358;10,000 to &#8358;15,000</option>
                             <option value="20,000">&#8358;20,000 to &#8358;30,000</option>
                             <option value="30,000">&#8358;30,000 to &#8358;45,000</option>
                             <option value="40,000">&#8358;40,000 to &#8358;60,000</option>
@@ -38,26 +37,31 @@
                             <option value="700,000">&#8358;700,000 to &#8358;1,050,000</option> 
                             <option value="800,000">&#8358;800,000 to &#8358;1,200,000</option> 
                             <!-- <option value="900,000">&#8358;900,000 to &#8358;1,300,000</option>  -->
-                             <option value="50,000">&#8358;50,000 to &#8358;150,000 (Promo plan)</option>
-                            <option value="100,000">&#8358;100,000 to &#8358;300,000 (Promo pl an)</option>
-                            <option value="200,000">&#8358;200,000 to &#8358;600,000 (Promo plan)</option>
-                            <option value="300,000">&#8358;300,000 to &#8358;900,000 (Promo plan)</option>
-                            <option value="400,000">&#8358;400,000 to &#8358;1,200,000 (Promo plan)</option>
-                            <option value="500,000">&#8358;500,000 to &#8358;1,500,000 (Promo plan)</option>
-                            <option value="600,000">&#8358;600,000 to &#8358;1,800,000 (Promo plan)</option>
-                            <option value="700,000">&#8358;700,000 to &#8358;2,100,000 (Promo plan)</option>
-                            <option value="800,000">&#8358;800,000 to &#8358;2,400,000 (Promo plan)</option>
-                            <option value="900,000">&#8358;900,000 to &#8358;2,700,000 (Promo plan)</option>
-                            <option value="1,000,000">&#8358;1,000,000 to &#8358;3,000,000 (Promo plan)</option>
-                            <option value="2,000,000">&#8358;2,000,000 to &#8358;6,000,000 (Promo plan)</option>
-                            <option value="3,000,000">&#8358;3,000,000 to &#8358;9,000,000 (Promo plan)</option>
-                            <option value="4,000,000">&#8358;4,000,000 to &#8358;12,000,000 (Promo plan)</option>
-                            <option value="5,000,000">&#8358;5,000,000 to &#8358;15,000,000 (Promo plan)</option>
-                            <option value="6,000,000">&#8358;6,000,000 to &#8358;18,000,000 (Promo plan)</option>
-                            <option value="7,000,000">&#8358;7,000,000 to &#8358;21,000,000 (Promo plan)</option>
-                            <option value="8,000,000">&#8358;8,000,000 to &#8358;24,000,000 (Promo plan)</option>
-                            <option value="9,000,000">&#8358;9,000,000 to &#8358;27,000,000 (Promo plan)</option>
-                            <option value="10,000,000">&#8358;10,000,000 to &#8358;30,000,000 (Promo plan)</option>
+                            <option value="100,000 promo">&#8358;100,000 to &#8358;300,000 (Promo plan)</option>
+                            <option value="200,000 promo">&#8358;200,000 to &#8358;600,000 (Promo plan)</option>
+                            <option value="300,000 promo">&#8358;300,000 to &#8358;900,000 (Promo plan)</option>
+                            <option value="400,000 promo">&#8358;400,000 to &#8358;1,200,000 (Promo plan)</option>
+                            <option value="500,000 promo">&#8358;500,000 to &#8358;1,500,000 (Promo plan)</option>
+                            <option value="600,000 promo">&#8358;600,000 to &#8358;1,800,000 (Promo plan)</option>
+                            <option value="700,000 promo">&#8358;700,000 to &#8358;2,100,000 (Promo plan)</option>
+                            <option value="800,000 promo">&#8358;800,000 to &#8358;2,400,000 (Promo plan)</option>
+                            <option value="900,000 promo">&#8358;900,000 to &#8358;2,700,000 (Promo plan)</option>
+                            <option value="1,000,000 promo">&#8358;1,000,000 to &#8358;3,000,000 (Promo plan)</option>
+                            <option value="2,000,000 promo">&#8358;2,000,000 to &#8358;6,000,000 (Promo plan)</option>
+                            <option value="3,000,000 promo">&#8358;3,000,000 to &#8358;9,000,000 (Promo plan)</option>
+                            <option value="4,000,000 promo">&#8358;4,000,000 to &#8358;12,000,000 (Promo plan)</option>
+                            <option value="5,000,000 promo">&#8358;5,000,000 to &#8358;15,000,000 (Promo plan)</option>
+                            <option value="6,000,000 promo">&#8358;6,000,000 to &#8358;18,000,000 (Promo plan)</option>
+                            <option value="7,000,000 promo">&#8358;7,000,000 to &#8358;21,000,000 (Promo plan)</option>
+                            <option value="8,000,000 promo">&#8358;8,000,000 to &#8358;24,000,000 (Promo plan)</option>
+                            <option value="9,000,000 promo">&#8358;9,000,000 to &#8358;27,000,000 (Promo plan)</option>
+                            <option value="10,000,000 promo">&#8358;10,000,000 to &#8358;30,000,000 (Promo plan)</option>
+                            <option value="500,000 jackpot">&#8358;500,000 to &#8358;2,000,000 (Jackpot)</option>
+                            <option value="1,000,000 jackpot">&#8358;1,000,000 to &#8358;4,000,000 (Jackpot)</option>
+                            <option value="2,000,000 jackpot">&#8358;2,000,000 to &#8358;8,000,000 (Jackpot)</option>
+                            <option value="3,000,000 jackpot">&#8358;3,000,000 to &#8358;12,000,000 (Jackpot)</option>
+                            <option value="4,000,000 jackpot">&#8358;4,000,000 to &#8358;16,000,000 (Jackpot)</option>
+                            <option value="5,000,000 jackpot">&#8358;5,000,000 to &#8358;20,000,000 (Jackpot)</option>
                          </select>
                </div>
                <div class="form-group">
@@ -88,7 +92,7 @@
 </select>
                </div>
                <div class="form-group">
-                   <input type="text" class="form-control" placeholder="Account Number" v-model="user_account_number">
+                   <input type="tel" class="form-control" placeholder="Account Number" v-model="user_account_number">
                </div>
                <div class="form-group">
                    <input type="text" class="form-control" placeholder="Account Name" v-model="user_bank_name">
@@ -151,7 +155,7 @@ export default {
                 this.loading = false
                 firebase.auth().createUserWithEmailAndPassword(this.email, this.password)
                 .then((cred)=>{
-                     db.collection('users').add({
+                     db.collection('users').doc(this.email).set({
                         name:this.name,
                         phone:this.phone,
                         email:this.email,

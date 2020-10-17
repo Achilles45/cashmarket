@@ -20,7 +20,7 @@
             <br><br><br><br>
            </div>
            <div class="dashboard__right">
-               <div class="dashoard__heading d-none d-md-block">
+               <!-- <div class="dashoard__heading d-none d-md-block">
                  <div class="heading__content d-flex justify-content-between">
                       <div class="toggler">
                       <i class="fa fa-bars"></i>
@@ -29,13 +29,13 @@
                       <h6>{{email}}</h6>
                   </div>
                  </div>
-               </div>
+               </div> -->
               <div class="right__wrapper">
                   <div class="heading d-flex justify-content-between">
                   <div class="content">
                    <!-- <h5>Welcome Back!</h5> -->
-                    <h5>Make Payment</h5>
-                         <h4>{{ name }}</h4>
+                    <h5 style="color: white">Make Payment</h5>
+                         <h4 style="color: white">{{ name }}</h4>
                   </div>
                     <div @click.prevent="show()" class="navbar__toggler">
                       <i class="fa fa-bars"></i>
@@ -83,7 +83,7 @@
               </div>
               <hr>
               <div></div>
-              <p>After making payment, please upload your proof of payment in your dashboard or send a mail to our support agent at cashmarketinvestment@gmail.com so your payment can be immediately approved.</p>
+              <p>After making payment, please upload your proof of payment in your dashboard or send a mail to our support agent at annexationbizconcept@gmail.com so your payment can be immediately approved.</p>
               </div>
             <!--End of Dashboard
             =========================-->
@@ -164,7 +164,7 @@ export default {
     grid-template-columns:  260px 1fr;
     // grid-gap: 30px;
     .dashboard__left{
-        background: #252525;
+        background: #0c0f1b;
         padding: 1rem 2rem;
         color:#fff;
         height: 100% !important;
@@ -199,7 +199,7 @@ export default {
         }
     }
     .dashboard__right{
-        background: #F4F6F9;
+        background: #0c0f1b;
         // padding: 3rem 2.5rem;
         .right__wrapper{
               padding: 1rem 2rem;
@@ -219,9 +219,9 @@ export default {
            font-weight: 400;
         }
        small{
-            color:#627081;
+            color:#fff;
            font-size: .8rem;
-           font-weight: bold;
+           font-weight: normal;
            opacity: .8;
        }
        .dashoard__heading{
@@ -319,15 +319,17 @@ export default {
             width: 100vw;
         }
         h5{
-            color:#454545;
+            color:#fff;
             font-weight: bold;
-            padding-bottom: 1.2rem;
-            padding-top: 1rem;
+            padding-bottom: 1rem;
+            padding-top: 1.5rem;
         }
         p{
             padding-top:1rem;
-            color:#545454;
-            font-size: .9rem;
+            color:#fff;
+            font-size: .8rem;
+            opacity: .7;
+            line-height: 1.8;
         }
     }
 }

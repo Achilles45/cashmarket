@@ -20,7 +20,7 @@
             <br><br><br><br>
            </div>
            <div class="dashboard__right">
-               <div class="dashoard__heading d-none d-md-block">
+               <!-- <div class="dashoard__heading d-none d-md-block">
                  <div class="heading__content d-flex justify-content-between">
                       <div class="toggler">
                       <i class="fa fa-bars"></i>
@@ -29,12 +29,12 @@
                       <h6>{{email}}</h6>
                   </div>
                  </div>
-               </div>
+               </div> -->
               <div class="right__wrapper">
                   <div class="heading d-flex justify-content-between">
                   <div class="content">
-                   <h5>Welcome Back!</h5>
-                      <h4>{{ name }}</h4>
+                   <h5 style="color: white">Welcome Back!</h5>
+                      <h4 style="color: white">{{ name }}</h4>
                       <!-- <small>{{ firstCode }}</small> -->
                   <!-- <small>{{ accountNumber }}</small> -->
                   </div>
@@ -174,7 +174,7 @@ export default {
     grid-template-columns:  260px 1fr;
     // grid-gap: 30px;
     .dashboard__left{
-        background: #252525;
+        background: #0c0f1b;
         padding: 1rem 2rem;
         color:#fff;
         height: 100% !important;
@@ -208,7 +208,7 @@ export default {
         }
     }
     .dashboard__right{
-        background: #F4F6F9;
+        background: #0c0f1b;
         // padding: 3rem 2.5rem;
         .right__wrapper{
               padding: 2rem 2rem;
@@ -225,10 +225,10 @@ export default {
               }
         }
        small{
-            color:#627081;
+            color:#fff;
            font-size: .8rem;
-           font-weight: bold;
-           opacity: .8;
+           font-weight: normal;
+           opacity: .7;
        }
        .dashoard__heading{
            background-color: #FBAE1C;
@@ -241,16 +241,17 @@ export default {
           }
        }
         .note{
-            color: #627081 !important;
+            color: #fff !important;
             font-size: .8rem;
             line-height: 1.7;
+            opacity: .7;
         }
         .invest__img{
             max-height: 50vh;
             width: 100vw;
         }
         h5{
-            color:#454545;
+            color:#fff;
             font-weight: bold;
             padding-bottom: 1.2rem;
             padding-top: 1rem;
@@ -268,7 +269,7 @@ export default {
         }
         p{
             padding-top:1rem;
-            color:#545454;
+            color:#fff;
             font-size: .9rem;
         }
     }

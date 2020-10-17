@@ -7,9 +7,9 @@
           </div>
           <div class="col-md-1"></div>
           <div class="col-md-5">
-              <h2>Cash Market <span class="orange">Investment Company</span></h2>
+              <h2>Annexation Business <span class="orange">Concept</span></h2>
               <hr>
-              <p>Cash Market Investment Limited was created with the aim of eliminating poverty and hardship from Nigeria. It's a reliable and genuine platform created for the benefit of every Nigerian to achieve wealth and happiness by investing and getting back your investment in 5 days and 24hours without any delay or stress in payment</p>
+              <p>Annexation Business Concept with registration number RC:3040166 was created with the aim of eliminating poverty and hardship from Nigeria. It's a reliable and genuine platform created for the benefit of every Nigerian to achieve wealth and happiness by investing and getting back your investment in 5 days for initial plans, 24 hours for promo plans and 48 hours for jackpot plans without any delay or stress in payment. <strong>Please note that recommitment is compulsary.</strong></p>
                <router-link to="/signup" class="intro-btn animated zoomIn animate3d">Get Started <i class="fas fa-long-arrow-alt-right"></i> </router-link>
           </div>
       </div>

@@ -17,7 +17,7 @@
                <div class="card__content">
                   <img src="../assets/images/growth.svg" class="icons" alt="">
                   <h3>AMAZING GROWTH OPPORTUNITIES</h3>
-                  <p>You will get profit of 50% ROI in 5 days on your initial investment. No stress, no stories!</p>
+                  <p>You will get profit of 50% ROI in 5 days on your initial investment, 300% in 24 hours for promo plans or 400% in 48 hours for jackpot plans. No stress, no stories!</p>
                    <router-link to="/signup" class="card__btn">Get Started</router-link><br><br>
               </div>
                <div class="card__content">

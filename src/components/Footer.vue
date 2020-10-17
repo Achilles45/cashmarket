@@ -11,10 +11,12 @@
                   <h5>Our Location & Contact</h5>
                 <h6><i class="fa fa-home"></i> Head Office</h6>
                 <p>No.34 Jos Road, Lafia Nassarawa, , Nasarawa State.</p>
+                <p>No.531, Medical Junction, New Benin, Edo State, Nigeria.</p>
                  <h6><i class="fa fa-envelope"></i>Email Address</h6>
-                <p>cashmarketinvestment@gmail.com</p>
+                <p>annexationbizconcept@gmail.com</p>
                  <h6><i class="fa fa-phone"></i>Phone</h6>
                 <p><a href="tel:09051985562"> 09051985562</a></p>
+                <p><a href="tel:07026200007"> 07026200007</a></p>
               </div>
               <div class="col-md-4">
                   <h5>Payment Method</h5>
@@ -29,7 +31,7 @@
           <div class="container">
               <div class="row">
                   <div class="col-12">
-                      <p>Cash Market Investment Limited &copy; All Right Reserved, 2020</p>
+                      <p>Annexation Business Concept &copy; All Right Reserved, 2020</p>
                   </div>
               </div>
           </div>

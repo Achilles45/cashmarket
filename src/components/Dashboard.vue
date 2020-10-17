@@ -20,7 +20,7 @@
             <br><br><br><br>
            </div>
            <div class="dashboard__right">
-               <div class="dashoard__heading d-none d-md-block">
+               <!-- <div class="dashoard__heading d-none d-md-block">
                  <div class="heading__content d-flex justify-content-between">
                       <div class="toggler">
                       <i class="fa fa-bars"></i>
@@ -29,12 +29,12 @@
                       <h6>{{email}}</h6>
                   </div>
                  </div>
-               </div>
+               </div> -->
               <div class="right__wrapper">
                   <div class="heading">
                   <div class="content">
-                   <h5>Welcome Back!</h5>
-                      <h4>{{ name }}</h4>
+                   <h5 style="color: white">Welcome Back!</h5>
+                      <h4 style="color: white">{{ name }}</h4>
                       <!-- <small>{{ firstCode }}</small> -->
                   <!-- <small>{{ accountNumber }}</small> -->
                   </div>
@@ -94,7 +94,12 @@
               </div>
               </div>
               <hr>
-              <p class="note">Kindly note that your investment lifecycle will only begin to count when you have been verified to have made payment for your selected plan. Your returns of 50% of your investment and your capital would be paid back in 5 days. Also, should you find any difficulties in using the platform, kindly use livechat widget to send a message and our customer success team will respond as soon as possible. Happy investing.</p>
+               <!-- <VueTradingView :options="{
+                symbol: 'NASDAQ:AAPL',
+                theme: 'dark',
+                width: '100%'
+                }" /> -->
+              <p class="note">Kindly note that your investment lifecycle will only begin to count when you have been verified to have made payment for your selected plan. Your returns of 50% of your investment and your capital would be paid back in 5 days for initial investment, in 24 hours for promo plans or 48 hours for jackpot packages. Also, should you find any difficulties in using the platform, kindly use livechat widget to send a message and our customer success team will respond as soon as possible. Happy investing.</p>
               </div>
             <!--End of Dashboard
             =========================-->
@@ -179,7 +184,7 @@ export default {
     grid-template-columns:  260px 1fr;
     // grid-gap: 30px;
     .dashboard__left{
-        background: #252525;
+        background: #0c0f1b;
         padding: 1rem 2rem;
         color:#fff;
         height: 100% !important;
@@ -213,7 +218,7 @@ export default {
         }
     }
     .dashboard__right{
-        background: #F4F6F9;
+        background: #0c0f1b;
         // padding: 3rem 2.5rem;
         .right__wrapper{
               padding: 2rem 2rem;
@@ -223,26 +228,29 @@ export default {
                   align-items: center;
                   position: relative;
                   .navbar__toggler{
-                      color:$primary-color;
+                      color:#fff !important;
                       position: absolute;
                       right: 5%;
                   }
               }
         }
        small{
-            color:#627081;
+            color:#fff;
            font-size: .8rem;
            font-weight: bold;
-           opacity: .8;
+           opacity: .6;
        }
        .dashoard__heading{
-           background-color: #FBAE1C;
+           background-color: #0c0f1b;
            padding: 1.2rem 2rem;
            display: flex;
            justify-content: space-between;
           h6{
                font-size: .9rem;
                color: #fff;
+          }
+          h5{
+              color: #fff !important;
           }
        }
         .summary__wrapper{
@@ -286,10 +294,11 @@ export default {
                 
         }
         .note{
-            color: #627081 !important;
+            color: #fff !important;
             font-size: .8rem;
-            line-height: 1.7;
+            line-height: 1.8;
             font-weight: 400;
+            opacity: .7;
         }
             //REQUEST FORM
             form{
