@@ -71,10 +71,10 @@
                      <!-- <i class="fa fa-home"></i> -->
                      <div class="content pl-4">
                          <!-- <h6>Bank Accounts</h6> -->
-                         <h6>Bank Name: STERLING BANK</h6>
+                         <h6>Bank Name: {{ bank_name }}</h6>
                          <hr>
-                         <h6>Account Number: 0078368236</h6>
-                         <h6>Account Name: TYLER SAMUEL</h6>
+                         <h6>Account Number: {{ account_number }}</h6>
+                         <h6>Account Name: {{ account_number }}</h6>
                      </div>
                   </div>
                     <!-- <div class="summary__card three pt-4">
